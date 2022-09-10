@@ -16,8 +16,12 @@
  */
 int main(void)
 {
-	for(int x = 'a'; x <= 'z'; x++){ 
-		putchar(tolower(x)); /* The returned value is returned as a parameter */
+	int x;
+
+	for(x = 'a'; x <= 'z'; x++)
+	{
+	        x = tolower(x);	
+		putchar(x); /* The returned value is returned as a parameter */
 	}
 	return (0);
 }
