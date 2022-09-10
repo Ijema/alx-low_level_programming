@@ -15,12 +15,13 @@ int main(void)
 			putchar((num1 / 10) + '0');
 			putchar((num1 % 10) + '0');
 			putchar(' ');
-			if (num1 == 98 && num2 == 99)
+			if (num1 == 98 || num2 == 99)
 			{
 				putchar(',');
 				putchar(' ');
-				putchar((num2 / 10) + '0');                                                                                   		            	     	     putchar((num2 % 10) + '0');
-			}
+				putchar((num2 / 10) + '0');                                                                                   	
+				putchar((num2 % 10) + '0');
+			}I
 		}
 	}
 	putchar('\n');
