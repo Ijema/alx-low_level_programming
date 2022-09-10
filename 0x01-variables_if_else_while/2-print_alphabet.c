@@ -23,7 +23,7 @@ int main(void)
 	{
 		x = tolower(x);	
 		putchar(x); /* The returned value is returned as a parameter */
-		putchar(\n);
 	}
+	putchar('\n');
 	return (0);
 }
