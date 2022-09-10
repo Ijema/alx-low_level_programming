@@ -1,11 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <ctype.h>
 /**
- * Main- Entry point
- * Description: program that prints the alphabet in lowercase, followed by a new line.
- * Print all the letters except q and e
- * Return: Always 0 (SUCCESS)
+ * main- Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
