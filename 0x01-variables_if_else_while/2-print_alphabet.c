@@ -26,8 +26,8 @@ int main(void)
 		{
 			if (d != c && d < c)
 			{
-				putchar('0' + d '\n');
-				putchar('0' + c '\n');
+				putchar('0' + d)'\n';
+				putchar('0' + c)'\n';
 			}
 			c++;
 		}
