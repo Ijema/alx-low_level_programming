@@ -6,15 +6,23 @@
  */
 int main(void)
 {
-	int num;
+	int x;
+	int y;
 
-	for (num = '0'; num <= '9'; num++)
+	for (x = '0'; x <= '9'; x++)
 	{
-		putchar((num % '10') + '0');
-		if (num == '9')
-			continue;
-			putchar(',');
-			putchar(' ');
+		for (y = '0'; y <= '9'; y++)
+		{
+			if (x != y)
+			{
+				putchar(xy);
+				if (x < '9')
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
 	}
 		putchar('\n');
 		return (0);
