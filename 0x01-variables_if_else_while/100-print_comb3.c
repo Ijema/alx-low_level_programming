@@ -15,7 +15,8 @@ int main(void)
 		{
 			if (x != y)
 			{
-				putchar(xy);
+				putchar(x);
+				putchar(y);
 				if (x < '9')
 				{
 					putchar(',');
