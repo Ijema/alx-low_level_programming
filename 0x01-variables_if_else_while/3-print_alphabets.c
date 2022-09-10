@@ -18,7 +18,7 @@ int main(void)
 	}
 	for (y = 'A'; y <= 'Z'; y++)
 	{
-		putchar(tolower(y)); /*Returns y as a parameter */
+		putchar(toupper(y)); /*Returns y as a parameter */
 	}
 	putchar('\n');
 	return (0);
