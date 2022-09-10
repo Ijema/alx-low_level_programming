@@ -5,25 +5,26 @@
  */
 int main(void)
 {
-	int x, y, z;
+	int digit1, digit2, digit3;
 
-	for (x = '0'; x <= '9'; x++)
+	for (digit1 = 0; digit1 < 8; digit1++)
 	{
-		for (y = '1'; y <= '9'; y++)
+		for (digit2 = digit1 + 1; digit2 < 9; digit2++)
 		{
-			for (z = '2'; z <='9'; z++)
-			{
-				putchar(x);
-				putchar(y);
-				putchar(z);
-				if (x < '9')
+			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
 				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-		}
+					putchar((digit1 % 10) + '0');
+					putchar((digit2 % 10) + '0');
+					putchar((digit3 % 10) + '0');
+					if (digit1 == 7 && digit2 == 8 && digit3 == 9)
+						continue;										
+						putchar(',');
+						putchar(' ');
+					}
+  				}
+		
+		}	
 	}
-	putchar('\n');
-	return (0);
+		putchar('\n');
+		return (0);
 }
