@@ -13,11 +13,11 @@ int main(void)
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
-		putchar(tolower(x));
-	}
-	for (y = 'A'; y <= 'Z'; y++)
-	{
-		putchar(tolower(y));
+		putchar(tolower(x)); /* Returns x as a parameter */
+		for (y = 'A'; y <= 'Z'; y++)
+		{
+			putchar(tolower(y)); /*Returns y as a parameter */
+		}
 	}
 	putchar('\n');
 	return (0);
