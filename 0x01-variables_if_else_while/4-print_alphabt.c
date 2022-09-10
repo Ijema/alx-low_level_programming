@@ -16,6 +16,7 @@ int main(void)
 		if (x != 'e' || x != 'q')
 		{
 			putchar(tolower(x));
+		}
 	}
 	putchar('\n');
 	return (0);
