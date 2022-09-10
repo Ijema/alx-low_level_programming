@@ -21,7 +21,7 @@ int main(void)
 				putchar(' ');
 				putchar((num2 / 10) + '0');                                                                                   	
 				putchar((num2 % 10) + '0');
-			}I
+			}
 		}
 	}
 	putchar('\n');
