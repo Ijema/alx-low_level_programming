@@ -22,7 +22,8 @@ int main(void)
 	for (x = 'a'; x <= 'z'; x++)
 	{
 		x = tolower(x);	
-		putchar(x "\n"); /* The returned value is returned as a parameter */
+		putchar(x); /* The returned value is returned as a parameter */
+		putchar(\n);
 	}
 	return (0);
 }
