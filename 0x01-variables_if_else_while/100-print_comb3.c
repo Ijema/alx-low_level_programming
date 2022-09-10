@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- *
- * main - Prints all possible combinations of single-digit numbers.
+ * main - Entry point Prints all possible combinations of single-digit numbers.
  * Return: Always 0.
  */
 int main(void)
@@ -15,12 +14,15 @@ int main(void)
 		{
 			if (x != y && y != x)
 			{
-				putchar(x);
-				putchar(y);
-				if (x < '9')
+				if (x, y != x, y)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(x);
+					putchar(y);
+					if (x < '8')
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
