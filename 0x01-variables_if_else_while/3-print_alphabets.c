@@ -1,17 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+/**
+ * main - Entry point
+ * Description: 'print both upper and lowercase alphabets
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	/**
-	 * main -  prints the alphabet in lowercase, and then in uppercase, followed by a new line.
-	 * Return:0 Success
-	 */
 	int x;
+	int y;
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
 		putchar(tolower(x)); /* Returns x as a parameter */
+	}
+	for (y = 'A'; y <= 'Z'; y++)
+	{
 		putchar(toupper(x)); /*Returns y as a parameter */
 	}
 	putchar('\n');
