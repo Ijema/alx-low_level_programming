@@ -8,7 +8,7 @@
 void print_alphabet(void);
 int main(void)
 {
-	int *x;
+	char *x;
 
 	for (*x = "A"; *x <= 36; *x++)
 		_putchar(tolower(*x));
