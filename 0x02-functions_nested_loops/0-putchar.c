@@ -1,13 +1,13 @@
-#include <holberton.h>
+#include <stdio.h>
 /* a program that prints _putchar, followed by a new line. */
 int main (void) {
 	char *sh = "Holberton"; 
 	
 	while (*sh)
 		{
-			_putchar(*sh);
+			putchar(*sh);
 			sh++;
 		}
-		_putchar('\n');
+		putchar('\n');
 		return (0);
 }
