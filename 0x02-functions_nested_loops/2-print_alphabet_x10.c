@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-void print_alphabet_x10(void)
+void main(void)
 {
 	int x;
 	char y;
