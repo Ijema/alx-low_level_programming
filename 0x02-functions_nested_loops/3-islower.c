@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * main - check the code.
+ * int _islower(int c) - prototype function .
  *
- * Return: Always 0;
+ * @c:parameter- int c
+ *
+ * Return: Always 0.
  */
 int _islower(int c)
 {
-	char x;
-
-	for (x = 'a'; x <= 'z'; x++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (x == 'c')
+		if (c == 'c')
 			return (1);
 		else
 			return (0);
