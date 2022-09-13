@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <time.h>
 /**
  * main - check the code
  *
