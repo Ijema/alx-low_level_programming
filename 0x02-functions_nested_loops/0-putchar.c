@@ -1,9 +1,13 @@
 #include <stdio.h>
 /* a program that prints _putchar, followed by a new line. */
 int main (void) {
-	char *name = "printme";
+	char *sh = "Holberton"; 
 	
-	_putchar(*name);
-	_putchar('\n');
-	return (0);
+	while (*sh)
+		{
+			_putchar(*sh);
+			sh++;
+		}
+		_putchar('\n');
+		return (0);
 }
