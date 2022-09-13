@@ -1,4 +1,4 @@
-#include <main.h>
+#include <stdio.h>
 #include <ctype.h>
 /**
  * main - check the code
@@ -8,10 +8,10 @@
 void print_alphabet(void);
 int main(void)
 {
-	int x;
+	int *x;
 
-	for (x = "A"; x <= 36; x++)
-		_putchar(tolower(x));
+	for (*x = "A"; *x <= 36; *x++)
+		_putchar(tolower(*x));
 	_putchar('\n');
 	return (0);
 }
