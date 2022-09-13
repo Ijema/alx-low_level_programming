@@ -14,10 +14,10 @@ int main(void)
 	{
 		for (y = 'a'; y <= 'z'; y++)
 		{
-			_putchar(tolower(y));
+			putchar(tolower(y));
 		}
 		x++;
-		-putchar('\n');
+		putchar('\n');
 	}
 	return (0);
 }
