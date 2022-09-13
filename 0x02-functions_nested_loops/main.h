@@ -2,5 +2,5 @@
 
 char name = "_putchar";
 
-int main(void){
-}
+int main(void);
+void print_alphabet(void);
