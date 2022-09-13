@@ -10,7 +10,7 @@ int main(void)
 	int x;
 	char y;
 
-	while (x <= '10')
+	while (x <= 10)
 	{
 		for (y = 'a'; y <= 'z'; y++)
 		{
