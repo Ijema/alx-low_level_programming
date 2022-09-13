@@ -5,6 +5,7 @@
  *
  * Return: Always 0.
  */
+int () {
 	int x;
 	char y;
 
@@ -18,4 +19,4 @@
 		putchar('\n');
 	}
 	return (0);
-
+}
