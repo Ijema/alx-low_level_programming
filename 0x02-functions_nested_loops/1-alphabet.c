@@ -7,10 +7,12 @@
  */
 void print_alphabet(void)
 {
-	char *x;
+	char x;
 
-	for (*x = "A"; *x <= 36; *x++)
-		putchar(tolower(*x));
-	putchar('\n');
+	for (x = 'A'; x <= '36'; x++)
+	{
+		_putchar(tolower(x));
+	}
+	_putchar('\n');
 	return (0);
 }
