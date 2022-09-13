@@ -1,5 +1,4 @@
 #include <stdio.h>
 
-char name = "_putchar";
-
+ilphabet_x10(void);
 int main(void);
