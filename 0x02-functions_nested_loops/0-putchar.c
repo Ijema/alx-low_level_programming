@@ -1,13 +1,17 @@
 #include <stdio.h>
-/* a program that prints _putchar, followed by a new line. */
-int main(void) {
+/*
+* main - check the code
+* Return: Always 0.
+*/
+int main(void)
+{
 	char *sh = "_putchar";
 
-while(*sh)
-		{
-			putchar(*sh);
-			sh++;
-		}
-		putchar('\n');
-		return (0);
+		while (*sh)
+			{
+				putchar(*sh);
+				sh++;
+			}
+			putchar('\n');
+			return (0);
 }
