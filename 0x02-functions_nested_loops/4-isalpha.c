@@ -1,14 +1,14 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * isalpha - entry point
+ * _isalpha - entry point
  *
- * Return: Always 1 if letter is lowercase or uppercase
- * Return: Always 0 if otherwise
+ * @c: The character to be checked
+ * Return: Always 1 if c letter is lowercase or uppercase and 0 if otherwise
  */
 int _isalpha(int c)
 {
-	if (c >='a' && c <='z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
