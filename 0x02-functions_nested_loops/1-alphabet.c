@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * main - check the code
+ * print_alphabet - print lowercase letters
  *
  * Return: Always 0.
  */
