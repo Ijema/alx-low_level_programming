@@ -1,6 +1,5 @@
-#include <stdio.h>
+#include "main.h"
 #include <ctype.h>
-#include <time.h>
 /**
  * main - check the code
  *
@@ -13,5 +12,4 @@ void print_alphabet(void)
 	for (x = 'A'; x <= 'Z'; x++)
 		_putchar(tolower(x));
 	_putchar('\n');
-	return (0);
 }
