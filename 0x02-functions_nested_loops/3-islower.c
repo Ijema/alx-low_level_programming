@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * int _islower(int c) - prototype function .
@@ -6,14 +7,16 @@
  *
  * Return: Always 0.
  */
-int _islower(int c)
-{
+int main(void){
+	int _islower(int c);
 
-	if (c >= 'a' && c <= 'z')
+	if (_islower(int c) >= 'a' && _islower(int c) <= 'z')
 	{
 		return (1);
 	}
 	else
 		return (0);
+	return (0);
+
 }
 
