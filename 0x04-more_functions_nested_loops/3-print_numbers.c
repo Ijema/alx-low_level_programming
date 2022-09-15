@@ -9,8 +9,7 @@ void print_numbers(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		sum += i;
-		_putchar(sum);
+		_putchar((num % 10) + '0');
 	}
 	_putchar('\n');
 }
