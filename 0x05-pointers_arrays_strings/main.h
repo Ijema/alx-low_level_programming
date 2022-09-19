@@ -7,4 +7,5 @@
  * @n: the character to be manipulated on
  */
 void reset_to_98(int *n);
+void swap_int(int *a, int *b);
 #endif
