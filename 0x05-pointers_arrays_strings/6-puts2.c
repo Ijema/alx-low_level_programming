@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * puts2 - prints every character in the string
  * @str: string where the character is to be printed from
@@ -6,12 +7,12 @@
  */
 void puts2(char *str)
 {
-	int i = 0;
+	int i;
+	int len = strlen(str);
 
-	while (*(str + i))
+	for(i = 0; i < len; i+=2)
 	{
-		_putchar(*(str + i));
-	i = i + 2;
+		putchar(str[i]);	
 	}
 	_putchar('\n');
 }
