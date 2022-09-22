@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ * Return: return void
+ */
 int main(void)
 {
 	int n;
